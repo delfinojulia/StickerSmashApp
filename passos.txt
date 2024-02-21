@@ -1,0 +1,24 @@
+Configurar o Git Local
+git config --global user.name delfinojulia
+git config --global user.email juliadelfino40@gmail.com
+
+SIte da Documentação oficial do Expo
+docs.expo.dev
+
+Ambiente de um projeto com React Native Expo
+1. Node.js
+2. Git
+3. Emulador Android (Android Studio)
+
+Criar um rpojeto:
+npx create-expo-app StickerSmash
+
+cd StickerSmash
+
+npx expo install react-dom react-native-web @expo/webpack-config 
+
+Executar o projeto no navegador:
+npx expo start
+
+Executar o projeto no celular:
+npx expo start --localhost--android
